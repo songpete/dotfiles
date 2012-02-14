@@ -36,7 +36,7 @@ set shiftwidth=2
 set expandtab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+" set list listchars=tab:»·,trail:·
 
 " Local config
 if filereadable(".vimrc.local")
@@ -49,7 +49,7 @@ if executable("ack")
 endif
 
 " Color scheme
-colorscheme github
+" colorscheme github
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
