@@ -7,6 +7,7 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set directory=~/temp  " Set one directory where the swap file saves to
+set autoread      " don't ask to load external changes to a buffer
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
