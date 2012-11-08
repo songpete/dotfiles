@@ -10,6 +10,7 @@ set directory=~/temp  " Set one directory where the swap file saves to
 set autoread      " don't ask to load external changes to a buffer
 set foldmethod=manual     " code folding
 set hlsearch      " highlight search matches
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>   " spacebar clears hightlights
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -56,6 +57,7 @@ endif
 " colorscheme github
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
+highlight Search guibg=LightBlue
 
 " Numbers
 set number
