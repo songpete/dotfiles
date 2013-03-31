@@ -1,3 +1,4 @@
+set autochdir     " Set pwd to file you're working on
 set nocompatible  " Use Vim settings, rather then Vi settings
 set nobackup
 set nowritebackup
